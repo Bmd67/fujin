@@ -1,0 +1,36 @@
+{
+  "name": "fujin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Fujin (風神) - Real-time full-stack dashboard",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest --coverage",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@prisma/client": "^5.0.0",
+    "zustand": "^4.5.0",
+    "react-query": "^5.0.0",
+    "socket.io-client": "^4.7.0",
+    "tailwindcss": "^3.4.0",
+    "lucide-react": "^0.300.0",
+    "recharts": "^2.10.0",
+    "next-auth": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/react": "^19.0.0",
+    "@types/node": "^20.0.0",
+    "prisma": "^5.0.0",
+    "jest": "^29.7.0",
+    "@testing-library/react": "^14.0.0",
+    "eslint": "^8.56.0"
+  }
+}
